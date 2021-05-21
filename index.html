@@ -8,8 +8,8 @@
 
     <!-- STYLES -->
 
-    <link rel="stylesheet" href="css/reset-eric-mayer.css">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="resources/css/reset-eric-mayer.css">
+    <link rel="stylesheet" href="resources/css/styles.css">
 
 
     <!-- FONT -->
@@ -30,6 +30,173 @@
 </head>
 <body>
 
+
+     <header>
+
+        <!-- HOME TITLE     
+        =====================================================-->
+
+        <div class="container">
+            <div class="row home-title">
+                <div class="col">
+                    <h1>Travel The <span>World</span></h1>
+                    <p>Tombez les masques et profitez en choisissant parmis les plus belles destinations du monde!</p>
+                    <a href="#packs" class="btn btn-full">Partir maintenan</a>
+                    <a href="#contact" class="btn btn-ghost">Contactez-nous</a>
+                </div>
+            </div>
+        </div>
+
+           <!-- CAROUSEL 5 DESTINATIONS    
+        =====================================================-->
+        
+        <div id="Destinations" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/carousel/Bora-Bora.jpg" class="d-block w-100" alt="image bora bora">
+              </div>
+              <div class="carousel-item">
+                <img src="images/carousel/inde.jpg" class="d-block w-100" alt="image de l'inde">
+              </div>
+              <div class="carousel-item">
+                <img src="images/carousel/hawaii.jpg" class="d-block w-100" alt="image d'hawaii">
+              </div>
+              <div class="carousel-item">
+                <img src="images/carousel/toronto.jpg" class="d-block w-100" alt="image de toronto">
+              </div>
+              <div class="carousel-item">
+                <img src="images/carousel/Tahiti.jpg" class="d-block w-100" alt="image de tahiti">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#destinations" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#destinations" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+
+
+    <!-- formulaire -->
+
+    
+    <section id="reservez">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="form">
+                                <h2>Reservez des maintenan</h2>
+                            </div>
+                        </div>
+                    </div>
+
+                    <form>
+
+                        <!-- Nom et prenom -->
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="contact-form">
+                                    <label>Nom :</label>
+                                    <input type="text" id="name">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="contact-form">
+                                    <label>Prenom :</label>
+                                    <input type="text" id="prenom"><br>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Destination et date -->
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="contact-form">
+                                    <label>Sélectionnez une destination</label>
+                                    <select>
+                                        <option>Bora Bora</option>
+                                        <option>Tahiti</option>
+                                        <option>Canada</option>
+                                        <option>Hawaii</option>
+                                        <option>Inde</option>
+                                    </select>
+                                </div>
+                            </div>
+                    
+                            <div class="col-md-6">
+                                <div class="contact-form">
+                                    <label>Sélectionnez une date</label>
+                                    <input type="date" id="date"><br>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- formules -->
+
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="contact-form">
+                                    <label>Sélectionnez une formule</label>
+                                    <select>
+                                        <option>Standard</option>
+                                        <option>Premium</option>
+                                        <option>Excellence</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div> 
+                                        <!-- enfant adulte -->
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="contact-form">
+                                    <label>Nombre d'adultes</label>
+                                    <input type="text" id="adultes"><br>
+                                </div>
+                            </div>
+                      
+           
+                            <div class="col-md-6">
+                                <div class="contact-form">
+                                    <label>Nombre d'enfants (-14)</label>
+                                    <input type="number" id="enfants"><br> 
+                                </div>
+                            </div>
+                        </div> 
+
+
+
+                        <!-- Bouton Envoyer -->
+
+                        <div class="row">
+                            <div class="col-md-">
+                                <div class="contact-form">
+                                    <button class="btn btn-contact">Envoyer</button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </form>
+            
+                </div>
+
+                <div class="col-md-6">
+                    <div class="map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2755.3906244631335!2d-0.4618455841443771!3d46.32193848381992!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x480731cd1864a46b%3A0x4efb9091eb0d5aac!2s10%20Rue%20Rabelais%2C%2079000%20Niort!5e0!3m2!1sfr!2sfr!4v1621607428683!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    </header>
 
 
 
