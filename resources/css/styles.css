@@ -12,7 +12,7 @@
 */
 
 /* FONTS
-    - Default : ;KOHO
+    - Default : KOHO
 
 
 */
@@ -26,3 +26,133 @@
 
 /* GLOBAL
 ==================================================*/
+
+
+
+
+
+
+/* HEADER
+=================================================*/
+header {
+    height: 76px;
+}
+
+.navbar {
+    background-color: #0F07E0!important;
+}
+
+.navbar img {
+    height: 50px;
+    background-color: #FFDA1F;
+    border-radius: 50%;
+}
+
+.navbar-brand {
+    transition: 1s;
+}
+
+.navbar-brand:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.navbar a {
+    font-family: 'KOHO', 'arial', sans-serif;
+    color: #FFDA1F!important;
+    font-weight: 700;
+}
+.navbar-nav a:hover {
+    color: #fff!important;
+    transition: 1s;
+}
+
+.special-offer {
+    background-color: #fff;
+    position: fixed;
+    top: 76px;
+    width: 100%;
+
+}
+
+
+.special-offer p {
+    font-family: 'KOHO', 'arial', sans-serif;
+    color: #0F07E0;
+    text-align: center;
+    font-weight: 800;
+    font-size: 1.3em;
+}
+
+
+
+/* BANDEAU ASSETS
+================================================*/
+
+.assets {
+    margin-top: 50px;
+    text-align: center;
+    background-color: #0F07E0 ;
+}
+
+h3 {
+    font-family: 'KOHO', 'arial', sans-serif;
+    color: #FFDA1F!important;
+}
+
+.assets .fas, .far {
+    font-size: 2em;
+    transition: 1s;
+}
+.assets .far:hover {
+    transform: rotate(360deg);
+    transition: 1s;
+}
+.assets .fas:hover {
+    transform: rotate(360deg);
+    transition: 1s;
+}
+
+
+.assets .col-md-4 {
+    padding: 30px;
+}
+
+
+/* FOOTER
+================================================*/
+
+footer {
+    margin-top: 50px;
+    background-color: #0F07E0;
+}
+
+.reseaux {
+    display: flex;
+    justify-content: center;
+}
+
+.reseaux a{
+    text-decoration: none;
+    color: #FFDA1F;
+    font-size: 2em;
+    padding: 20px;
+    text-align: center;
+    transition: 1s;
+}
+.reseaux a:hover {
+    transform: scale(1.2);
+    color: #fff;
+    transition: 1s;
+}
+
+.copyright p{
+    text-align: center;
+    color: #fff;
+    font-family: 'KOHO', 'arial', sans-serif;
+    font-size: 0.8em;
+    padding-bottom: 10px;
+
+}
+
+
