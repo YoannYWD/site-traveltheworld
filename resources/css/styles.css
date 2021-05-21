@@ -80,8 +80,9 @@ header {
 .special-offer {
     background-color: #fff;
     position: fixed;
-    top: 76px;
+    top: 150px;
     width: 100%;
+    z-index: 1;
 
 }
 
